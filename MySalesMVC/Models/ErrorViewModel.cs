@@ -1,7 +1,7 @@
 using System;
 
 namespace MySalesMVC.Models
-{
+{ 
     public class ErrorViewModel
     {
         public string RequestId { get; set; }
