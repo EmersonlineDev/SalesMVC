@@ -15,5 +15,9 @@ namespace MySalesMVC.Data
         }
 
         public DbSet<MySalesMVC.Models.SystemUser> SystemUser { get; set; }
+
+        public DbSet<MySalesMVC.Models.Client> Client { get; set; }
+
+        public DbSet<MySalesMVC.Models.Telephone> Telephone { get; set; }
     }
 }
